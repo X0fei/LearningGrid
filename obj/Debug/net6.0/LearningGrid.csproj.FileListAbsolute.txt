@@ -134,3 +134,4 @@ C:\Users\prdb\Desktop\LearningGrid\obj\Debug\net6.0\LearningGrid.pdb
 C:\Users\prdb\Desktop\LearningGrid\obj\Debug\net6.0\LearningGrid.csproj.CopyComplete
 C:\Users\prdb\Desktop\LearningGrid\obj\Debug\net6.0\LearningGrid.genruntimeconfig.cache
 C:\Users\prdb\Desktop\LearningGrid\obj\Debug\net6.0\ref\LearningGrid.dll
+C:\Users\prdb\Desktop\LearningGrid\obj\Debug\net6.0\LearningGrid.sourcelink.json
