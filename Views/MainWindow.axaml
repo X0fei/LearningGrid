@@ -19,49 +19,49 @@
 			Margin="5"
 			CornerRadius="10"
 			Background="SandyBrown">
-			<TextBlock 
+			<TextBlock
 				Margin="5"
 				FontSize="24"
 				HorizontalAlignment="Center"
 				Text="Окно регистрации">
 			</TextBlock>
 		</Border>
-		<Image Stretch="UniformToFill"
+		<Image
 			   Name="Cube"
 			   Width="50"
 			   Height="50"
-			   Sourse="C:\Users\prdb\Desktop\LearningGrid\Assets\impossible_cube.png"/>
-			<Grid
-				ShowGridLines="True"
-				ColumnDefinitions="120, 185"
-				RowDefinitions="Auto, Auto, Auto"
-				HorizontalAlignment="Center"
-				VerticalAlignment="Center">
-				<Border
-					Grid.Row="0" Grid.Column="0"
-					Margin="3 10"
-					CornerRadius="10"
-					Background="BurlyWood">
-					<TextBlock
-						HorizontalAlignment="Center"
-						VerticalAlignment="Center"
-						Text="Логин">
-					</TextBlock>
-				</Border>
-				<TextBox Grid.Row="0" Grid.Column="1" Margin="10 10" Name="login"/>
-				<Border
-					Grid.Row="1" Grid.Column="0"
-					Margin="3 10"
-					CornerRadius="10"
-					Background="BurlyWood">
-					<TextBlock
-						HorizontalAlignment="Center"
-						VerticalAlignment="Center"
-						Text="Пароль">
-					</TextBlock>
-				</Border>
-				<TextBox Grid.Row="1" Grid.Column="1" Margin="10 10" Name="password"/>
-			</Grid>
+			   Sourse="C:\Users\prdb\Desktop\LearningGrid\Assets\impossible-cube.png"/>
+		<Grid
+			ShowGridLines="True"
+			ColumnDefinitions="120, 185"
+			RowDefinitions="Auto, Auto, Auto"
+			HorizontalAlignment="Center"
+			VerticalAlignment="Center">
+			<Border
+				Grid.Row="0" Grid.Column="0"
+				Margin="3 10"
+				CornerRadius="10"
+				Background="BurlyWood">
+				<TextBlock
+					HorizontalAlignment="Center"
+					VerticalAlignment="Center"
+					Text="Логин">
+				</TextBlock>
+			</Border>
+			<TextBox Grid.Row="0" Grid.Column="1" Margin="10 10" Name="login"/>
+			<Border
+				Grid.Row="1" Grid.Column="0"
+				Margin="3 10"
+				CornerRadius="10"
+				Background="BurlyWood">
+				<TextBlock
+					HorizontalAlignment="Center"
+					VerticalAlignment="Center"
+					Text="Пароль">
+				</TextBlock>
+			</Border>
+			<TextBox Grid.Row="1" Grid.Column="1" Margin="10 10" Name="password"/>
+		</Grid>
 		<Button Margin="0 5" HorizontalAlignment="Center">Зарегистрироваться</Button>
 	</StackPanel>
 </Window>
