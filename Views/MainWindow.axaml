@@ -28,9 +28,11 @@
 		</Border>
 		<Image
 			   Name="Cube"
-			   Width="50"
-			   Height="50"
-			   Sourse="C:\Users\prdb\Desktop\LearningGrid\Assets\impossible-cube.png"/>
+			   Margin="20"
+			   Width="100"
+			   Height="100"
+			   Source="/Assets/impossible-cube.png">
+		</Image>
 		<Grid
 			ShowGridLines="True"
 			ColumnDefinitions="120, 185"

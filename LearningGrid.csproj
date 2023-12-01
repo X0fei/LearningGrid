@@ -7,6 +7,9 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
   </PropertyGroup>
+    <ItemGroup>
+      <AvaloniaResource Include="Assets\**"/>
+    </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Models\" />
