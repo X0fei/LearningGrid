@@ -23,7 +23,7 @@
 				Margin="5"
 				FontSize="24"
 				HorizontalAlignment="Center"
-				Text="Окно регистрации">
+				Text="Sign Up Form">
 			</TextBlock>
 		</Border>
 		<Image
@@ -31,7 +31,7 @@
 			   Margin="20"
 			   Width="100"
 			   Height="100"
-			   Source="/Assets/impossible-cube.png">
+			   Source="/Assets/impossible_triangle.png">
 		</Image>
 		<Grid
 			ShowGridLines="True"
@@ -47,7 +47,7 @@
 				<TextBlock
 					HorizontalAlignment="Center"
 					VerticalAlignment="Center"
-					Text="Логин">
+					Text="Login">
 				</TextBlock>
 			</Border>
 			<TextBox Grid.Row="0" Grid.Column="1" Margin="10 10" Name="login"/>
@@ -59,7 +59,7 @@
 				<TextBlock
 					HorizontalAlignment="Center"
 					VerticalAlignment="Center"
-					Text="Пароль">
+					Text="Password">
 				</TextBlock>
 			</Border>
 			<TextBox Grid.Row="1" Grid.Column="1" Margin="10 10" Name="password"/>
