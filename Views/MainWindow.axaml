@@ -36,7 +36,7 @@
 		<Grid
 			ShowGridLines="True"
 			ColumnDefinitions="120, 185"
-			RowDefinitions="Auto, Auto, Auto"
+			RowDefinitions="Auto, Auto, Auto, Auto, Auto"
 			HorizontalAlignment="Center"
 			VerticalAlignment="Center">
 			<Border
@@ -63,7 +63,40 @@
 				</TextBlock>
 			</Border>
 			<TextBox Grid.Row="1" Grid.Column="1" Margin="10 10" Name="password"/>
+			<Border
+				Grid.Row="2" Grid.Column="0"
+				Margin="3 10"
+				CornerRadius="10"
+				Background="BurlyWood">
+				<TextBlock
+					HorizontalAlignment="Center"
+					VerticalAlignment="Center"
+					Text="Gender">
+				</TextBlock>
+			</Border>
+			<RadioButton
+				Grid.Row="2"
+				Grid.Column="1"
+				VerticalAlignment="Top"
+				Margin="9 0 0 0"
+				GroupName="Gender"
+				Content="None">
+			</RadioButton>
+			<RadioButton
+				Grid.Row="2"
+				Grid.Column="1"
+				Margin="9 50 0 0"
+				GroupName="Gender"
+				Content="Male">
+			</RadioButton>
+			<RadioButton
+				Grid.Row="2"
+				Grid.Column="1"
+				Margin="9 0 0 0"
+				GroupName="Gender"
+				Content="Female">
+			</RadioButton>
 		</Grid>
-		<Button Margin="0 5" HorizontalAlignment="Center">Зарегистрироваться</Button>
+		<Button Margin="0 5" HorizontalAlignment="Center">Register</Button>
 	</StackPanel>
 </Window>
