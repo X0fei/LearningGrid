@@ -73,7 +73,7 @@
 					Text="Confirm Pass">
 				</TextBlock>
 			</Border>
-			<TextBox Grid.Row="2" Grid.Column="1" Margin="10 10" Name="conform_password"/>
+			<TextBox Grid.Row="2" Grid.Column="1" Margin="10 10" Name="conformPassword"/>
 			<Border
 				Grid.Row="3" Grid.Column="0"
 				Margin="3 5"
@@ -91,23 +91,26 @@
 				VerticalAlignment="Top"
 				Margin="9 0 0 0"
 				GroupName="Gender"
-				Content="None">
+				Content="None"
+				Name="none">
 			</RadioButton>
 			<RadioButton
 				Grid.Row="3"
 				Grid.Column="1"
 				Margin="9 50 0 0"
 				GroupName="Gender"
-				Content="Male">
+				Content="Male"
+				Name="male">
 			</RadioButton>
 			<RadioButton
 				Grid.Row="3"
 				Grid.Column="1"
 				Margin="9 0 0 0"
 				GroupName="Gender"
-				Content="Female">
+				Content="Female"
+				Name="female">
 			</RadioButton>
 		</Grid>
-		<Button Margin="0 15" HorizontalAlignment="Center">Register</Button>
+		<Button Margin="0 15" HorizontalAlignment="Center" Click="RegisterConfirm">Register</Button>
 	</StackPanel>
 </Window>
