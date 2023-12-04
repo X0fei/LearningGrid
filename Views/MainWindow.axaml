@@ -34,7 +34,6 @@
 			   Source="/Assets/impossible_triangle.png">
 		</Image>
 		<Grid
-			ShowGridLines="True"
 			ColumnDefinitions="120, 185"
 			RowDefinitions="Auto, Auto, Auto, Auto, Auto"
 			HorizontalAlignment="Center"
@@ -71,11 +70,23 @@
 				<TextBlock
 					HorizontalAlignment="Center"
 					VerticalAlignment="Center"
+					Text="Confirm Pass">
+				</TextBlock>
+			</Border>
+			<TextBox Grid.Row="2" Grid.Column="1" Margin="10 10" Name="conform_password"/>
+			<Border
+				Grid.Row="3" Grid.Column="0"
+				Margin="3 5"
+				CornerRadius="10"
+				Background="BurlyWood">
+				<TextBlock
+					HorizontalAlignment="Center"
+					VerticalAlignment="Center"
 					Text="Gender">
 				</TextBlock>
 			</Border>
 			<RadioButton
-				Grid.Row="2"
+				Grid.Row="3"
 				Grid.Column="1"
 				VerticalAlignment="Top"
 				Margin="9 0 0 0"
@@ -83,20 +94,20 @@
 				Content="None">
 			</RadioButton>
 			<RadioButton
-				Grid.Row="2"
+				Grid.Row="3"
 				Grid.Column="1"
 				Margin="9 50 0 0"
 				GroupName="Gender"
 				Content="Male">
 			</RadioButton>
 			<RadioButton
-				Grid.Row="2"
+				Grid.Row="3"
 				Grid.Column="1"
 				Margin="9 0 0 0"
 				GroupName="Gender"
 				Content="Female">
 			</RadioButton>
 		</Grid>
-		<Button Margin="0 5" HorizontalAlignment="Center">Register</Button>
+		<Button Margin="0 15" HorizontalAlignment="Center">Register</Button>
 	</StackPanel>
 </Window>
