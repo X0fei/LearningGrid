@@ -9,6 +9,7 @@ namespace LearningGrid.Views
     {
         string loginData;
         string passwordData;
+        string gender;
         public MainWindow()
         {
             InitializeComponent();
@@ -17,12 +18,18 @@ namespace LearningGrid.Views
         {
             if (password.Text != conformPassword.Text)
             {
-                conformPassword.Text = "Пароли должны совпадать";
+                conformPassword.Text = "";
             }
             else
             {
                 loginData = login.Text;
                 passwordData = password.Text;
+                if (female.IsChecked == true)
+                    gender = "female";
+                else if (male.IsChecked == true)
+                    gender = "male";
+                else
+                    gender = "none";
             }
         }
     }

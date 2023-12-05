@@ -34,7 +34,7 @@
 			   Source="/Assets/impossible_triangle.png">
 		</Image>
 		<Grid
-			ColumnDefinitions="120, 185"
+			ColumnDefinitions="120, 195"
 			RowDefinitions="Auto, Auto, Auto, Auto, Auto"
 			HorizontalAlignment="Center"
 			VerticalAlignment="Center">
@@ -73,7 +73,7 @@
 					Text="Confirm Pass">
 				</TextBlock>
 			</Border>
-			<TextBox Grid.Row="2" Grid.Column="1" Margin="10 10" Name="conformPassword"/>
+			<TextBox Grid.Row="2" Grid.Column="1" Margin="10 10" Watermark="Passwords must match" Name="conformPassword"/>
 			<Border
 				Grid.Row="3" Grid.Column="0"
 				Margin="3 5"
