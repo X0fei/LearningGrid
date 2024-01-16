@@ -30,6 +30,8 @@ namespace LearningGrid.Views
                     gender = "male";
                 else
                     gender = "none";
+                new Window2().Show();
+                Close();
             }
         }
     }
