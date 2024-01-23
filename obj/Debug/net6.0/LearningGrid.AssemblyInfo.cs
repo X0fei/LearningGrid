@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearningGrid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cc2379cb636f7218a3084b6bbd1347614589388")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fae231eda36b5a101415bada36712e7fdf354530")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearningGrid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearningGrid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,18 +7,24 @@
         x:Class="LearningGrid.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="LearningGrid">
+        Title="LearningGrid"
+		Width="800"
+		Height="600">
 
 	<Design.DataContext>
 		<!-- This only sets the DataContext for the previewer in an IDE,
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
 		<vm:MainWindowViewModel/>
 	</Design.DataContext>
-		<StackPanel Background="PeachPuff">
-			<Image
-				Name="Background"
-				Source="/Assets/background.jpg">
-			</Image>
+	<Window.Styles>
+		<Style Selector="Window">
+			<Setter Property="Background">
+				<ImageBrush Source="/Assets/background.jpg"
+				   Stretch="Fill"/>
+			</Setter>
+		</Style>
+	</Window.Styles>
+		<StackPanel>
 			<Border
 				Margin="5"
 				CornerRadius="10"
@@ -31,11 +37,12 @@
 				</TextBlock>
 			</Border>
 			<Image
-				   Name="Triangle"
-				   Margin="20"
+				   Name="WhiteSquare"
+				   HorizontalAlignment="Center"
+				   VerticalAlignment="Center"
 				   Width="100"
 				   Height="100"
-				   Source="/Assets/impossible_triangle.png">
+				   Source="/Assets/white_background.jpg">
 			</Image>
 			<Grid
 				ColumnDefinitions="120, 195"
